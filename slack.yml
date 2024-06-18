@@ -8,4 +8,4 @@
     community.general.slack:
       token: "{{ token }}"
       channel: "#devops"
-      msg: "I am the batman" 
+      msg: "{{ msg }}" 
