@@ -1,0 +1,11 @@
+---
+
+- hosts: localhost
+
+  tasks: 
+
+  - name: Post URL to Slack channel
+    community.general.slack:
+      token: "{{ token }}"
+      channel: "#devops"
+      msg: "I am the batman" 
